@@ -15,6 +15,12 @@ console.log(age);
 console.log(weight);
 console.log(weight2);
 
+let ageText = '35';
+console.log('parseInt =>', parseInt(ageText));
+
+let weightText = '74.56';
+console.log('parseFloat =>', parseFloat(weightText));
+console.log('Number =>', Number(weightText));
 //#endregion
 
 
