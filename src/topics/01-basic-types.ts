@@ -41,6 +41,22 @@ console.log(name + ' ' + lastName);
 let fullName = `Template literals (String interpolation) => ${name} ${lastName}`;
 console.log (fullName);
 
+//#endregion
+
+//#region BOOLEAN
+
+console.log('***************************')
+console.log('***********BOOLEAN**********')
+console.log('***************************')
+
+const useAngular = true;
+const comparisonExpression = 5 > 2;
+const booleanText = 'asas';
+
+console.log('Usas Angular?: ', useAngular);
+console.log('Comparación mediante una expresión: 5 es mayor que 2? =>', comparisonExpression);
+console.log('Convertir texto a boolean utilizando la función Boolean: =>', Boolean(booleanText));
+console.log('Convertir texto a boolean usando doble negación => ', !!booleanText);
 
 //#endregion
 
