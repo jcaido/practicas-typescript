@@ -30,5 +30,6 @@ const studentPercy :IStudent = {
 
 console.log('Datos de Juan: ', juan);
 console.log('Datos del estudiante Percy: ', studentPercy);
+console.log('Edad del estudiante Percy: ', studentPercy.age );
 
 export{};
