@@ -62,7 +62,7 @@ console.log('Convertir texto a boolean usando doble negación => ', !!booleanTex
 
 //#region DATE
 console.log('***************************')
-console.log('***********BOOLEAN**********')
+console.log('***********DATE**********')
 console.log('***************************')
 
 const dateNow = new Date();
@@ -70,4 +70,18 @@ console.log('fecha actual: ', dateNow);
 console.log('El año actual es: ', dateNow.getFullYear());
 
 //#endregion
+
+//#region ANY
+console.log('***************************')
+console.log('***********ANY**********')
+console.log('***************************')
+
+let valueAny :any = 'Hola coders';
+console.log('Valor Any: ', valueAny);
+
+valueAny = 5;
+console.log('Valor Any número: ', valueAny);
+
+//#endregion
+
 export {};
