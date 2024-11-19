@@ -23,7 +23,7 @@ const petFirullay :IPet = {
     vaccines: ['Rabia']
 };
 
-const petKitty:IPet = {
+const petKitty :IPet = {
     name: 'Kitty',
     age: '8 años',
     species: 'Gato',
@@ -31,7 +31,18 @@ const petKitty:IPet = {
     vaccines: ['Rabia', 'Distemper']
 }
 
-const pets :IPet[] = [petFirullay, petKitty];
+const petPaula :IPet = {
+    name: 'Paula',
+    age: '8 años',
+    species: 'Loro',
+    isFemale: true,
+    vaccines: ['Rabia']
+}
+
+const pets :IPet[] = [petFirullay, petKitty, petPaula];
 console.log('Mis mascotas: ', pets);
+
+const petsFemale = pets.filter((pet) => pet.isFemale);
+console.log('Mascotas hembras: ', petsFemale);
 
 export{}
