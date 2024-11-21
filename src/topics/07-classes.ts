@@ -12,4 +12,7 @@ class Person {
     }
 }
 
+const juan = new Person('Juan', 'Pérez Vargas');
+console.log('Instancia (Person) "JUAN": ', juan);
+
 export {}
