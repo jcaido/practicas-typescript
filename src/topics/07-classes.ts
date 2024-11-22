@@ -32,4 +32,21 @@ console.log('Instancia (Person) "JUAN": ', juan);
 console.log('edad de JUAN: ', juan.getAge());
 juan.talk();
 
+class Astronauta extends Person {
+
+    numberMastersDegrees: number;
+
+    constructor(name: string, lastName: string, age: number, numberMastersDegrees: number) {
+        super(name, lastName, age);
+        this.numberMastersDegrees = numberMastersDegrees;
+    }
+}
+
+console.log('***************************************')
+console.log('***DATOS DEL POSTULANTE A ASTRONAUTA***')
+console.log('***************************************')
+
+const astronauta = new Astronauta('Jhon', 'Connor', 45, 0);
+console.log('Datos del astronauta: ', astronauta);
+
 export {}
