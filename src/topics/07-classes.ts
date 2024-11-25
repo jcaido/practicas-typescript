@@ -58,8 +58,12 @@ console.log('***DATOS DEL POSTULANTE A ASTRONAUTA***')
 console.log('***************************************')
 
 const astronauta = new Astronauta('Jhon', 'Connor', 45, 0, 'Jhon Connor');
+const astronautaMaria = new Astronauta('María', 'Torres', 25, 3, 'María Torres');
+
 console.log('Datos del astronauta: ', astronauta);
 console.log('Nombre y apellidos del astronáuta: ', astronauta.getFullName());
 astronauta.pilotShip();
+
+console.log('Datos del astronauta María: ', astronautaMaria);
 
 export {}
