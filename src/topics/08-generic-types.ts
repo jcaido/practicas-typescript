@@ -85,4 +85,20 @@ const responseObjet: IResponse<ICustomer> = {
 
 console.log('Response object: ', responseObjet);
 
-export {} 
+const responseArray: IResponse<ICustomer[]> = {
+    code: 'DEEE5',
+    message: 'Error indeterminado',
+    data: [customer, customer]
+}
+
+console.log('Response Object: ', responseArray);
+
+const responseOther: IResponse<boolean> = {
+    code: 'DF44',
+    message: 'Datos incluidos',
+    data: true
+}
+
+console.log('Response object: ', responseOther);
+
+export {};
