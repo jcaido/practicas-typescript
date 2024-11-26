@@ -101,4 +101,21 @@ const responseOther: IResponse<boolean> = {
 
 console.log('Response object: ', responseOther);
 
+// puede ocurrir que otro de los casos de recepcion del Json no incluya el atributo data. No tenemos que crear otra interface
+// podemos utilizar la misma interface pero volviendo el atributo genérico opcional con =void
+
+interface IResponse2<T=void> {
+    code: string;
+    message: string;
+    data?: T;
+}
+
+const errorData: IResponse2 = {
+    code: 'ERROR56',
+    message: 'Error al cargar  el archivo',
+}
+
+console.log('Response object: ', errorData);
+
+
 export {};
