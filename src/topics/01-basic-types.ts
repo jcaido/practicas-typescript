@@ -2,9 +2,9 @@
 
 //#region NUMBER 
 
-console.log('***************************')
-console.log('***********NUMBER**********')
-console.log('***************************')
+    console.log('***************************')
+    console.log('***********NUMBER**********')
+    console.log('***************************')
 
 const age = 15;
 let weight = 70.5;
@@ -22,6 +22,23 @@ console.log('parseInt =>', parseInt(ageText));
 let weightText = '74.56';
 console.log('parseFloat =>', parseFloat(weightText));
 console.log('Number =>', Number(weightText));
+
+console.log('***************************')
+console.log('***********NUMBER PRACTICE**********')
+console.log('***************************')
+
+const forecastPrecipitacion = 25;
+let rainProbability: number = 75;
+console.log(`Precipitación prevista: ${forecastPrecipitacion} mm`);
+console.log(`Probabilidad de precipitación: ${rainProbability} %`);
+
+const humidity = '54';
+const humidityNumber = parseInt(humidity);
+const currentPrecipitacion = '23.6';
+const currentPrecipitacionNumber = parseFloat(currentPrecipitacion);
+
+console.log(`Humedad del: ${humidityNumber} %`);
+console.log(`Precipitación actualizada: ${currentPrecipitacionNumber} mm`);
 
 //#endregion
 
