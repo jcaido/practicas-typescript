@@ -58,6 +58,17 @@ console.log(name + ' ' + lastName);
 let fullName = `Template literals (String interpolation) => ${name} ${lastName}`;
 console.log (fullName);
 
+console.log('***************************')
+console.log('***********STRING PRACTICE**********')
+console.log('***************************')
+
+let cpNumber = '14920';
+let village = 'Aguilar de la Frontera';
+let city = 'Cordoba';
+console.log('Código Postal: ' + cpNumber + " .- " + village + ' .- ' + city);
+console.log(`Código Postal: ${cpNumber} .- ${village} .- ${city}`);
+
+
 //#endregion
 
 //#region BOOLEAN
